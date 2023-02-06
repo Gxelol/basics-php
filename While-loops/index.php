@@ -16,13 +16,20 @@
       $index++;
     }
     
-    $index = 1;
-
-    while($index = 1){    #ATTENTION
-      echo "$index <br>"; #Infinite loop
-    }
-
+//     $index = 1;
     
+//     while($index = 1){         #ATTENTION
+//      echo "$index <br>";       #Infinite loop
+//     }
+    
+    $index = 6;
+    
+    do {
+      echo "$index <br>";
+      $index++;  
+    } while($index <= 5);
+
+
   ?>
 </body>
 </html>
