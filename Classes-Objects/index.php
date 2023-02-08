@@ -15,14 +15,14 @@
       var $pages;
     }
 
-    $book1 = new Book;
+    $book1 = new Book();
 
     $book1 -> title = "The Great Harbor";
     $book1 -> author = "Unknown";
     $book1 -> pages = 1000;
     
     
-    $book2 = new Book;
+    $book2 = new Book();
 
     $book2 -> title = "The Plague";
     $book2 -> author = "Jr TgO";
